@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+
+body {
+    background-color: rgb(243, 240, 240);
+}
+
+th,td {
+    padding: 0.7rem;
+    text-align: center;
+}
+
+td {
+    padding: 1.2rem;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari */
+}
+.no-scrollbar {
+    -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
